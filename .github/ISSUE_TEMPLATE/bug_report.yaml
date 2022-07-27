@@ -22,7 +22,7 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Please provide as much information as possible.
     validations:
-      required: true
+      required: true 
 
   - type: dropdown
     id: module
@@ -73,7 +73,7 @@ body:
         - easy-install
         - manual install
         - FrappeCloud
-    validations:
+    validations: 
       required: false
 
   - type: textarea
